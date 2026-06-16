@@ -14,6 +14,10 @@ class ExampleTest extends TestCase
     {
         $response = $this->get('/');
 
-        $response->assertStatus(200);
+        $response
+            ->assertStatus(200)
+            ->assertSee('TALA+')
+            ->assertSee('assets/img/logos/brand-1.png')
+            ->assertSee('scroll-to-top-icon');
     }
 }
