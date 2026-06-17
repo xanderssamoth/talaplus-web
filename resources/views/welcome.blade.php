@@ -91,8 +91,8 @@
                 <h6 class="fs-8 fw-normal lh-lg mb-0 opacity-70 text-center">univers réunis : culture, éducation, divertissement, business et communication.</h6>
               </div>
               <div class="col-12 col-md-4">
-                <h2 class="fs-3 fw-bold lh-sm mb-2 text-center" data-countup='{"endValue":3}'>0</h2>
-                <h6 class="opacity-70 fs-8 fw-normal lh-lg mb-0 text-center">écrans ciblés pour toucher les publics sur mobile, web et télévision.</h6>
+                <h2 class="fs-3 fw-bold lh-sm mb-2 text-center" data-countup='{"endValue":4}'>0</h2>
+                <h6 class="opacity-70 fs-8 fw-normal lh-lg mb-0 text-center">espaces ciblés pour toucher les publics sur mobile, web et télévision.</h6>
               </div>
               <div class="col-12 col-md-4">
                 <h2 class="fs-3 fw-bold lh-sm mb-2 text-center" data-countup='{"endValue":24,"suffix":"/7"}'>0</h2>
