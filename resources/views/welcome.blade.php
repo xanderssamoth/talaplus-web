@@ -5,23 +5,25 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1">
 
-    <title>Bienvenue sur TALA+</title>
-
     <link rel="apple-touch-icon" sizes="180x180" href="{{ asset('assets/img/favicon/apple-touch-icon.png') }}">
     <link rel="icon" type="image/png" sizes="32x32" href="{{ asset('assets/img/favicon/favicon-32x32.png') }}">
     <link rel="icon" type="image/png" sizes="16x16" href="{{ asset('assets/img/favicon/favicon-16x16.png') }}">
     <link rel="shortcut icon" type="image/x-icon" href="{{ asset('assets/img/favicon/favicon.ico') }}">
     <link rel="manifest" href="{{ asset('assets/img/favicon/site.webmanifest') }}">
+
     <meta name="theme-color" content="#ffffff">
 
     <link rel="stylesheet" href="{{ asset('vendors/swiper/swiper-bundle.min.css') }}">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Figtree:ital,wght@0,300..900;1,300..900&amp;family=Rubik:ital,wght@0,300..900;1,300..900&amp;display=swap" rel="stylesheet">
+
     <link href="{{ asset('assets/css/theme.min.css') }}" rel="stylesheet" id="style-default">
     <link href="{{ asset('assets/css/user-rtl.min.css') }}" rel="stylesheet" id="user-style-rtl">
     <link href="{{ asset('assets/css/user.min.css') }}" rel="stylesheet" id="user-style-default">
-    <link rel="stylesheet" href="{{ asset('vendors/unicon/line.css') }}">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.1/css/all.min.css" integrity="sha512-2SwdPD6INVrV/lHTZbO2nodKhrnDdJK9/kg2XD1r9uGqPo1cUbujc+IYdlYdEErWNu69gVcYgdxlmVmzTWnetw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+    <title>Bienvenue sur TALA+</title>
   </head>
 
   <body>
@@ -30,7 +32,8 @@
         <nav class="navbar navbar-expand-md fixed-top" id="navbar" data-navbar-soft-on-scroll="data-navbar-soft-on-scroll">
           <div class="container-fluid px-0">
             <a class="navbar-brand d-flex align-items-center" href="/">
-              <img class="img-fluid" src="{{ asset('assets/img/logos/brand-1.png') }}" alt="TALA+" width="200" />
+              <img class="img-fluid d-none d-md-block" src="{{ asset('assets/img/logos/brand-1.png') }}" alt="TALA+" width="200" />
+              <img class="img-fluid d-md-none" src="{{ asset('assets/img/logos/logo-0.png') }}" alt="TALA+" width="50" />
             </a>
             <a class="btn btn-primary btn-sm ms-md-x1 mt-lg-0 order-md-1 ms-auto" href="#contact">Rejoindre l'aventure</a>
             <button class="navbar-toggler border-0 pe-0" type="button" data-bs-toggle="collapse" data-bs-target="#navbar-content" aria-controls="navbar-content" aria-expanded="false" aria-label="Ouvrir le menu">
@@ -54,7 +57,8 @@
               <div class="container">
                 <div class="row gy-4 gy-md-8 pt-9 pt-lg-0">
                   <div class="col-lg-6 text-center text-lg-start">
-                    <h1 class="fs-2 fs-lg-1 text-white fw-bold mb-2 mb-lg-x1 lh-base mt-3 mt-lg-0">Le bouquet numérique qui connecte <span class="text-nowrap">le monde créative</span></h1>
+                    <p class="mb-0 mt-2 d-sm-none"><img src="{{ asset('assets/img/logos/brand-0.png') }}" alt="Tala+" width="200"></p>
+                    <h1 class="fs-2 fs-lg-1 text-white fw-bold mb-2 mb-lg-x1 lh-base mt-3 mt-lg-0">Le bouquet numérique qui connecte <span class="d-lg-block">le monde créatif</span></h1>
                     <p class="fs-8 text-white mb-3 mb-lg-4 lh-lg">TALA+ réunit divertissement, éducation, entrepreneuriat, culture et communication dans une seule expérience accessible sur mobile, web et télévision.</p>
                     <div class="d-flex justify-content-center justify-content-lg-start">
                       <a class="btn btn-primary btn-lg lh-xl mb-4 mb-md-5 mb-lg-7" href="#about">Découvrir TALA+</a>
@@ -103,7 +107,7 @@
               <div class="col-12 col-lg-6 col-xl-5">
                 <div class="row justify-content-center justify-content-lg-start">
                   <div class="col-sm-10 col-md-8 col-lg-12">
-                    <h2 class="fs-4 fs-lg-3 fw-bold mb-2 text-center text-lg-start">Valoriser la culture africaine par le numérique.</h2>
+                    <h2 class="fs-4 fs-lg-3 fw-bold mb-2 text-center text-lg-start">Valoriser la culture mondiale par le numérique.</h2>
                     <p class="fs-8 mb-4 mb-lg-5 lh-lg text-center text-lg-start fw-normal">TALA+ crée un espace où les créateurs, les apprenants, les entrepreneurs et les communautés peuvent se rencontrer autour de contenus utiles et inspirants.</p>
                   </div>
                   <div class="col-12">
@@ -112,8 +116,8 @@
                       <p class="mb-0 lh-xl">Des programmes pour enfants, adolescents et adultes, avec des formats pensés pour apprendre simplement.</p>
                     </div>
                     <div>
-                      <h5 class="fs-8 fw-bold lh-lg mb-1">Vitrine des talents africains</h5>
-                      <p class="lh-xl mb-0">Une plateforme pour mettre en avant artistes, entrepreneurs, formateurs et initiatives locales.</p>
+                      <h5 class="fs-8 fw-bold lh-lg mb-1">Vitrine des talents du monde</h5>
+                      <p class="lh-xl mb-0">Une plateforme pour mettre en avant artistes, entrepreneurs, formateurs et initiatives venues de tous les horizons.</p>
                     </div>
                   </div>
                 </div>
@@ -183,7 +187,7 @@
                     </div>
                     <div class="py-1 py-lg-0 px-lg-5 w-75 w-sm-50 w-lg-100 timeline-content">
                       <h6 class="fs-8 fw-bold text-lg-center lh-lg mb-2">Participer et grandir</h6>
-                      <p class="text-lg-center lh-xl mb-0">Chaque membre peut apprendre, partager, recommander et soutenir les talents africains.</p>
+                      <p class="text-lg-center lh-xl mb-0">Chaque membre peut apprendre, partager, recommander et soutenir les talents du monde.</p>
                     </div>
                   </div>
                 </div>
@@ -206,7 +210,7 @@
                   </div>
                 </div>
                 <div class="col-md-8 col-lg-7">
-                  <h2 class="fs-4 fs-lg-3 fw-bold text-center text-white mb-5 mb-lg-9 lh-sm">Une plateforme conçue pour répondre aux besoins numériques du public africain.</h2>
+                  <h2 class="fs-4 fs-lg-3 fw-bold text-center text-white mb-5 mb-lg-9 lh-sm">Une plateforme conçue pour répondre aux besoins numériques d'un public mondial.</h2>
                 </div>
                 <div class="col-12">
                   <div class="row gy-4 g-md-3 pb-8 pb-lg-11 px-1">
@@ -252,15 +256,15 @@
                         <div class="swiper-wrapper">
                           <div class="col-12 swiper-slide"><div class="d-flex justify-content-center gap-2"><div class="d-flex flex-column flex-lg-row gap-2 px-4 py-x1 review-card-1"><div class="text-center text-lg-start"><img class="card-image rounded-circle object-fit-cover" src="{{ asset('assets/img/feedback/reviewer_1.webp') }}" alt="Utilisateur TALA+" /></div><div class="text-center text-lg-start"><p class="fs-8 mb-2 lh-lg line-clamp-3 text-1100">"TALA+ peut devenir l'espace où nos histoires, nos talents et nos idées trouvent enfin leur public."</p><p class="text-800 lh-xl mb-0">Aline M.</p></div></div></div></div>
                           <div class="col-12 swiper-slide"><div class="d-flex justify-content-center gap-2"><div class="d-flex flex-column flex-lg-row gap-2 px-4 py-x1 review-card-2"><div class="text-center text-lg-start"><img class="card-image rounded-circle object-fit-cover" src="{{ asset('assets/img/feedback/reviewer_2.webp') }}" alt="Créateur TALA+" /></div><div class="text-center text-lg-start"><p class="fs-8 mb-2 lh-lg line-clamp-3 text-1100">"Une seule application pour apprendre, promouvoir un projet et suivre les événements qui comptent."</p><p class="text-800 lh-xl mb-0">David K.</p></div></div></div></div>
-                          <div class="col-12 swiper-slide"><div class="d-flex justify-content-center gap-2"><div class="d-flex flex-column flex-lg-row gap-2 px-4 py-x1 review-card-3"><div class="text-center text-lg-start"><img class="card-image rounded-circle object-fit-cover" src="{{ asset('assets/img/feedback/reviewer_3.webp') }}" alt="Partenaire TALA+" /></div><div class="text-center text-lg-start"><p class="fs-8 mb-2 lh-lg line-clamp-3 text-1100">"Le mélange éducation, culture et entrepreneuriat répond à un vrai besoin local."</p><p class="text-800 lh-xl mb-0">Esther N.</p></div></div></div></div>
+                          <div class="col-12 swiper-slide"><div class="d-flex justify-content-center gap-2"><div class="d-flex flex-column flex-lg-row gap-2 px-4 py-x1 review-card-3"><div class="text-center text-lg-start"><img class="card-image rounded-circle object-fit-cover" src="{{ asset('assets/img/feedback/reviewer_3.webp') }}" alt="Partenaire TALA+" /></div><div class="text-center text-lg-start"><p class="fs-8 mb-2 lh-lg line-clamp-3 text-1100">"Le mélange éducation, culture et entrepreneuriat répond à un vrai besoin global."</p><p class="text-800 lh-xl mb-0">Esther N.</p></div></div></div></div>
                           <div class="col-12 swiper-slide"><div class="d-flex justify-content-center gap-2"><div class="d-flex flex-column flex-lg-row gap-2 px-4 py-x1 review-card-4"><div class="text-center text-lg-start"><img class="card-image rounded-circle object-fit-cover" src="{{ asset('assets/img/feedback/kakashi.webp') }}" alt="Ambassadeur TALA+" /></div><div class="text-center text-lg-start"><p class="fs-8 mb-2 lh-lg line-clamp-3 text-1100">"L'IA et les recommandations peuvent rendre la découverte de contenus beaucoup plus naturelle."</p><p class="text-800 lh-xl mb-0">Patrick L.</p></div></div></div></div>
-                          <div class="col-12 swiper-slide"><div class="d-flex justify-content-center gap-2"><div class="d-flex flex-column flex-lg-row gap-2 px-4 py-x1 review-card-5"><div class="text-center text-lg-start"><img class="card-image rounded-circle object-fit-cover" src="{{ asset('assets/img/feedback/obito.webp') }}" alt="Membre TALA+" /></div><div class="text-center text-lg-start"><p class="fs-8 mb-2 lh-lg line-clamp-3 text-1100">"J'aime l'idée d'une plateforme africaine pensée aussi pour les créateurs et les entrepreneurs."</p><p class="text-800 lh-xl mb-0">Grace F.</p></div></div></div></div>
+                          <div class="col-12 swiper-slide"><div class="d-flex justify-content-center gap-2"><div class="d-flex flex-column flex-lg-row gap-2 px-4 py-x1 review-card-5"><div class="text-center text-lg-start"><img class="card-image rounded-circle object-fit-cover" src="{{ asset('assets/img/feedback/obito.webp') }}" alt="Membre TALA+" /></div><div class="text-center text-lg-start"><p class="fs-8 mb-2 lh-lg line-clamp-3 text-1100">"J'aime l'idée d'une plateforme mondiale pensée aussi pour les créateurs et les entrepreneurs."</p><p class="text-800 lh-xl mb-0">Grace F.</p></div></div></div></div>
                         </div>
                       </div>
                     </div>
                   </div>
                 </div>
-                <div class="text-center"><a class="py-1 link-success" href="#contact"><span>Devenir partenaire </span><span class="uil uil-arrow-right icon"></span></a></div>
+                <div class="text-center"><a class="py-1 link-success" href="#contact"><span>Devenir partenaire </span><span class="fa-solid fa-angle-right icon align-middle"></span></a></div>
               </div>
             </div>
           </section>
@@ -313,12 +317,12 @@
                     </div>
                     <div class="col-lg-10">
                       <div class="d-flex gap-2 gap-lg-x1 mb-4 mb-lg-5">
-                        <div><div class="check-icon bg-success mb-1 rounded-circle d-flex align-items-center justify-content-center"><span class="uil uil-check text-white"></span></div></div>
+                        <div><div class="check-icon bg-success mb-1 rounded-circle d-flex align-items-center justify-content-center"><span class="fa-solid fa-check text-white"></span></div></div>
                         <div><h5 class="fs-8 fw-bold lh-lg mb-1 text-white">Innovation continue</h5><p class="lh-xl text-white text-opacity-70 mb-0">Des modules d'intelligence artificielle et de personnalisation pour enrichir la découverte.</p></div>
                       </div>
                       <div class="d-flex gap-2 gap-lg-x1 mb-4 mb-lg-5">
-                        <div><div class="check-icon bg-success mb-1 rounded-circle d-flex align-items-center justify-content-center"><span class="uil uil-check text-white"></span></div></div>
-                        <div><h5 class="fs-8 fw-bold lh-lg mb-1 text-white">Partenariats africains</h5><p class="lh-xl text-white text-opacity-70 mb-0">Un réseau ouvert aux créateurs, médias, formateurs, marques et institutions.</p></div>
+                        <div><div class="check-icon bg-success mb-1 rounded-circle d-flex align-items-center justify-content-center"><span class="fa-solid fa-check text-white"></span></div></div>
+                        <div><h5 class="fs-8 fw-bold lh-lg mb-1 text-white">Partenariats mondiaux</h5><p class="lh-xl text-white text-opacity-70 mb-0">Un réseau ouvert aux créateurs, médias, formateurs, marques et institutions.</p></div>
                       </div>
                     </div>
                   </div>
@@ -327,7 +331,7 @@
                   <div class="accordion mt-lg-4 ps-3 pe-x1 bg-white" id="accordion">
                     <div class="accordion-item">
                       <h2 class="accordion-header" id="heading1"><button class="accordion-button fs-8 lh-lg fw-bold pt-x1 pb-2" type="button" data-bs-toggle="collapse" data-bs-target="#collapse1" aria-expand="true" aria-controls="collapse1" data-accordion-button="data-accordion-button">Qu'est-ce que TALA+ ?</button></h2>
-                      <div class="accordion-collapse collapse show" id="collapse1" data-bs-parent="#accordion"><div class="accordion-body lh-xl pt-0 pb-x1">TALA+ est un bouquet numérique qui rassemble contenus, services, communautés et opportunités autour d'une plateforme africaine.</div></div>
+                      <div class="accordion-collapse collapse show" id="collapse1" data-bs-parent="#accordion"><div class="accordion-body lh-xl pt-0 pb-x1">TALA+ est un bouquet numérique qui rassemble contenus, services, communautés et opportunités autour d'une plateforme mondiale.</div></div>
                     </div>
                     <div class="accordion-item">
                       <h2 class="accordion-header" id="heading2"><button class="accordion-button fs-8 lh-lg fw-bold pt-x1 pb-2 collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapse2" aria-expand="false" aria-controls="collapse2" data-accordion-button="data-accordion-button">Sur quels appareils l'utiliser ?</button></h2>
@@ -424,9 +428,9 @@
                 <p class="text-center text-md-start lh-xl text-1100">© {{ date('Y') }} TALA+. Tous droits réservés.</p>
               </div>
               <div class="col-auto pe-0">
-                <a class="icons fs-8 me-3 me-md-0 ms-md-3 cursor-pointer" href="#!"><span class="uil uil-twitter"></span></a>
-                <a class="icons fs-8 me-3 me-md-0 ms-md-3 cursor-pointer" href="#!"><span class="uil uil-instagram"></span></a>
-                <a class="icons fs-8 me-3 me-md-0 ms-md-3 cursor-pointer" href="#!"><span class="uil uil-linkedin"></span></a>
+                <a class="icons fs-8 me-3 me-md-0 ms-md-3 cursor-pointer" href="https://web.facebook.com/talaplus" target="_blank"><span class="fa-brands fa-facebook"></span></a>
+                <a class="icons fs-8 me-3 me-md-0 ms-md-3 cursor-pointer" href="https://x.com/talaplus" target="_blank"><span class="fa-brands fa-x-twitter"></span></a>
+                <a class="icons fs-8 me-3 me-md-0 ms-md-3 cursor-pointer" href="https://www.instagram.com/talaplus" target="_blank"><span class="fa-brands fa-instagram"></span></a>
               </div>
             </div>
           </div>
